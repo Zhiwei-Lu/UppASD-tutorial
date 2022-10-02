@@ -37,4 +37,4 @@ TASK5
 ------------------------
 The fluctuating fields in LLG equation are uncorrelated Gaussian white noises. According to the fluctuation dissipation theorem, the strength of the fluctuations is related to damping as well as temperature. 
 
- In this exercise, you will perform spin dynamics including temperature effect in a single spin system. The spins will flip due to the thermal fluctuation. Turn on the temperature by flag ``Temp``. Plot the time evolution of the magnetization to see how the fluctuation of magnetization changes with increasing temperature.
+In this exercise, you will perform spin dynamics including temperature effect in a single spin system. The spins will flip due to the thermal fluctuation. Turn on the temperature by flag ``Temp``. Plot the time evolution of the magnetization to see how the fluctuation of magnetization changes with increasing temperature.
