@@ -12,16 +12,11 @@ the simple switching of a magnetic unit, a bit, is a crucial process which defin
 
 TASK1
 -----------------
-The magnetization direction of sample can be manipulated by applying an external magnetic field with the desired orientation. In this exercise you will apply a magnetic field to switch the magnetization direction of bcc Fe from **+z** to **-z** direction. Set the flag ``hfield`` to turn on the magnetic field. Plot the average magnetization of **z** component as a function of time, compare the switching time of different strength of the magnetic field.
+The magnetization direction of sample can be manipulated by applying an external magnetic field with the desired orientation. In this exercise you will apply a magnetic field to switch the magnetization direction of bcc Fe from **+z** to **-z** direction. Set the flag ``hfield`` to turn on the magnetic field. Plot the average magnetization of **z** component as a function of time, compare the switching time of different strength with the magnetic field.
 
-UppASD on supercomputers
+TASK2
 ------------------------
-The code is parallelized over shared memory using OpenMP threading. In this
-exercise you will explore how the computational performance of UppASD depends
-on problem size and on the number of CPU cores. With weak scaling is meant the
-computational effiency when changing the number of cores in proportion with
-the problem size. With strong scaling is meant the computational effiency when
-changing the number of cores for a fixed problem size.
+Damping enters the LLG equation as a phenomenological term, which denotes the energy and angular momentum dissipation from the magnetic system to the environment. The magnetic switching is heavily dependent on the damping. In this exercise you can modify the damping of system by the flag ``damping``, fix the magnetic field and compare the switching time of bcc Fe with different damping. 
 
 The systems
 
