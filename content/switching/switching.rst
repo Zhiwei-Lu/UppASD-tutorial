@@ -32,3 +32,9 @@ TASK4
 In this case, we do not want to reverse the magnetization of the whole system but instead only change the magnetic configuration of selected domains. A more efficient way to move domain walls in a magnetic system is to drive an electrical current through the system. When the spin polarized current passes through a domain wall, where the magnetization direction changes, the spins of the charge carriers will align with the changed magnetization and, as a result, there will be a transfer of angular momentum between the passing current and the localized moments in the domain wall. 
 
 In this exercise, use the provided restart file to study the motion of a domain wall (set  ``Initmag 4`` and ``restartfile ./restart.DOMAIN.DW)`` apply an spin polarized current to the sample(``stt A`` and  ``jvec jx jy jz``). Plot the time evolution of the magnetization and estimate the speed of the domain wall. Then visualize the domain wall motion dynamics of the system by UppASD GUI, for that you need to set ``do_tottraj Y`` to get the spin configuration of each sampling step.  
+
+TASK5
+------------------------
+The fluctuating fields in LLG equation are uncorrelated Gaussian white noises. According to the fluctuation dissipation theorem, the strength of the fluctuations is related to damping as well as temperature. 
+
+ In this exercise, you will perform spin dynamics including temperature effect in a single spin system. The spins will flip due to the thermal fluctuation. Turn on the temperature by flag ``Temp``. Plot the time evolution of the magnetization to see how the fluctuation of magnetization changes with increasing temperature.
