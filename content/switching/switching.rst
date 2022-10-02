@@ -9,16 +9,10 @@ the possibility writing and retrieving information in a magnetic material at eve
 speed and with lower energy consumption has obvious benefits for our society. Hence,
 the simple switching of a magnetic unit, a bit, is a crucial process which defines how efficiently information can be stored and retrieved from a magnetic memory. In the following exercises, you will use the code UppASD to perform magnetic switching simulation with several setups. Please find more simulation details in ``task.txt`` in each task folder.
 
-Python environment for the GUI
-------------------------------
 
-The recommended way to set up the Python environment that is required
-for the UppASD graphical user interface is to use either a Python
-virtual environments or a conda environment.
-
-First simulations
+TASK1
 -----------------
-
+The magnetization direction of sample can be manipulated by applying an external magnetic field with the desired orientation. In this exercise you will apply a magnetic field to switch the magnetization direction of bcc Fe from **+z** to **-z** direction. Set the flag \textbf{'hfield'} to turn on the magnetic field. Plot the average magnetization of **z** component as a function of time, compare the switching time of different strength of the magnetic field.
 
 UppASD on supercomputers
 ------------------------
