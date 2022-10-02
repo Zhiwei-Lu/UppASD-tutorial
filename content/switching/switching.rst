@@ -18,6 +18,9 @@ TASK2
 ------------------------
 Damping enters the LLG equation as a phenomenological term, which denotes the energy and angular momentum dissipation from the magnetic system to the environment. The magnetic switching is heavily dependent on the damping. In this exercise you can modify the damping of system by the flag ``damping``, fix the magnetic field and compare the switching time of bcc Fe with different damping. 
 
+TASK3
+------------------------
+
 The systems
 
 * Exercise 1: Weak scaling for ``NX 12``, ``NY 12``, ``NX 12``:math:`c`, where :math:`nc` is the number CPU cores, ranging from 1 to 16.
