@@ -21,7 +21,9 @@ Damping enters the LLG equation as a phenomenological term, which denotes the en
 TASK3
 ------------------------
 To switch a magnetic system, one needs to overcome the energy barrier, which is determined by system’s magnetic anisotropy and the volume of the system. In actual device, the energy barrier can stablize system's magnetic order. However, huge energy barrier will induce higher power consumption to manipulate the magnetism in device. In this assignment, you will explore the magnetic switching process with different magnetic anisotropy and cell size. 
-* Use the flag ``anisotropy`` combined with an external file storing the magnetic anisotropy parameter of system to manipulate the magnetic anisotropy, compare how different magnetic anisotropy affects the switching time.\\
+
+* Use the flag ``anisotropy`` combined with an external file storing the magnetic anisotropy parameter of system to manipulate the magnetic anisotropy, compare how different magnetic anisotropy affects the switching time.
+
 * Use the flag ``ncell`` to control the size of system. Does the switching time increase with larger cell size? If not, can you explain it? 
 The systems
 
