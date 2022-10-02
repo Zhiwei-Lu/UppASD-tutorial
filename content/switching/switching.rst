@@ -12,7 +12,7 @@ the simple switching of a magnetic unit, a bit, is a crucial process which defin
 
 TASK1
 -----------------
-The magnetization direction of sample can be manipulated by applying an external magnetic field with the desired orientation. In this exercise you will apply a magnetic field to switch the magnetization direction of bcc Fe from **+z** to **-z** direction. Set the flag \textbf{'hfield'} to turn on the magnetic field. Plot the average magnetization of **z** component as a function of time, compare the switching time of different strength of the magnetic field.
+The magnetization direction of sample can be manipulated by applying an external magnetic field with the desired orientation. In this exercise you will apply a magnetic field to switch the magnetization direction of bcc Fe from **+z** to **-z** direction. Set the flag **hfield** to turn on the magnetic field. Plot the average magnetization of **z** component as a function of time, compare the switching time of different strength of the magnetic field.
 
 UppASD on supercomputers
 ------------------------
