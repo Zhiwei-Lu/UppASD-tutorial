@@ -25,7 +25,7 @@ To switch a magnetic system, one needs to overcome the energy barrier, which is 
 * Use the flag ``anisotropy`` combined with an external file storing the magnetic anisotropy parameter of system to manipulate the magnetic anisotropy, compare how different magnetic anisotropy affects the switching time.
 
 * Use the flag ``ncell`` to control the size of system. Does the switching time increase with larger cell size? If not, can you explain it? 
-The systems
+
 
 TASK4
 ------------------------
