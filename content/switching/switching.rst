@@ -18,8 +18,7 @@ TASK2
 ------------------------
 * Damping enters the LLG equation as a phenomenological term, which denotes the energy and angular momentum dissipation from the magnetic system to the environment. The magnetic switching is heavily dependent on the damping. In this exercise you can modify the damping of system by the flag ``damping``, fix the magnetic field and compare the switching time of macrospin with different damping. 
 
-* To switch a magnetic system, one needs to overcome the energy barrier, which is determined by system’s magnetic anisotropy and the volume of the system. In actual device, the energy barrier can stablize system's magnetic order. However, huge energy barrier will induce higher power consumption to manipulate the magnetism in device. In this assignment, you will explore the magnetic switching process with different magnetic anisotropy. 
-Use the flag ``anisotropy`` combined with an external file storing the magnetic anisotropy parameter of system to manipulate the magnetic anisotropy, compare how different magnetic anisotropy affects the switching time.
+* To switch a magnetic system, one needs to overcome the energy barrier, which is determined by system’s magnetic anisotropy and the volume of the system. In actual device, the energy barrier can stablize system's magnetic order. However, huge energy barrier will induce higher power consumption to manipulate the magnetism in device. In this assignment, you will explore the magnetic switching process with different magnetic anisotropy. Use the flag ``anisotropy`` combined with an external file storing the magnetic anisotropy parameter of system to manipulate the magnetic anisotropy, compare how different magnetic anisotropy affects the switching time.
 
 
 TASK3
