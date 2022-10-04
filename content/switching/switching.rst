@@ -31,3 +31,4 @@ In this exercise, use the provided restart file to study the motion of a domain 
 
 TASK4
 ------------------------
+Precessional switching
