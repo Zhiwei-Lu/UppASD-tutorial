@@ -26,7 +26,7 @@ TASK2
 
 TASK3
 ------------------------
-In this exercise, you will perform the simulation on precessional switching. Here you will use the flag ``do_bpulse`` to control the type of field pulse,  use the Gaussian pulse in this exercise. So set ``do_bpulse 2``. Then you can modify the parameter of pulse center and width of pulse for Gaussian in the file named ``bpulsefile``. Plot the average magnetization of **z** component as a function of time and compare.
+In this exercise, you will perform the simulation on precessional switching. Here you will use the flag ``do_bpulse`` to control the type of field pulse,   Set ``do_bpulse 2`` since we use the Gaussian pulse in this exercise. Then modify the parameter of pulse center and width of pulse for Gaussian in the file named ``bpulsefile``. Plot the average magnetization of **z** component as a function of time and compare the switching process of different pulse.
 
 
 TASK4 
