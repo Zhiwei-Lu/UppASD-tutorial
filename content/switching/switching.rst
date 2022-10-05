@@ -20,15 +20,20 @@ TASK2
 
 * To switch a magnetic system, one needs to overcome the energy barrier, which is determined by system’s magnetic anisotropy and the volume of the system. In actual device, the energy barrier can stablize system's magnetic order. However, huge energy barrier will induce higher power consumption to manipulate the magnetism in device. In this assignment, you will explore the magnetic switching process with different magnetic anisotropy. Use the flag ``anisotropy`` combined with an external file storing the magnetic anisotropy parameter of system to manipulate the magnetic anisotropy, compare how different magnetic anisotropy affects the switching time.
 
+* Magnetic islands
+
+
 
 TASK3
 ------------------------
+In this exercise, you will perform the simulation on precessional switching. Here you will use the flag ``do_bpulse`` to control the type of field pulse,  use the Gaussian pulse in this exercise. So set ``do_bpulse 2``. Then you can modify the parameter of pulse center and width of pulse for Gaussian in the file named ``bpulsefile``. Plot the average magnetization of **z** component as a function of time and compare.
+
+
+TASK4 
+------------------------
 In this case, we do not want to reverse the magnetization of the whole system but instead only change the magnetic configuration of selected domains. A more efficient way to move domain walls in a magnetic system is to drive an electrical current through the system. When the spin polarized current passes through a domain wall, where the magnetization direction changes, the spins of the charge carriers will align with the changed magnetization and, as a result, there will be a transfer of angular momentum between the passing current and the localized moments in the domain wall. 
 
-In this exercise, use the provided restart file to study the motion of a domain wall (set  ``Initmag 4`` and ``restartfile ./restart.DOMAIN.DW)`` apply an spin polarized current to the sample(``stt A`` and  ``jvec jx jy jz``). Visualize the domain wall motion dynamics of the system by UppASD GUI, for that you need to set ``do_tottraj Y`` to get the spin configuration of each sampling step.  
+In this exercise, use the provided restart file to study the motion of a domain wall (set  ``Initmag 4`` and ``restartfile ./restart.DOMAIN.DW)`` apply a spin polarized current to the sample(``stt A`` and  ``jvec jx jy jz``). Visualize the domain wall motion dynamics of the system by UppASD GUI, for that you need to set ``do_tottraj Y`` to get the spin configuration of each sampling step.  
 
 
 
-TASK4
-------------------------
-Precessional switching
